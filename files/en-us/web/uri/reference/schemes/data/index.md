@@ -10,7 +10,7 @@ sidebar: urlsidebar
 **Data URLs**, URLs prefixed with the `data:` scheme, allow content creators to embed small files inline in documents. They were formerly known as "data URIs" until that name was retired by the WHATWG.
 
 > [!NOTE]
-> Data URLs are treated as unique opaque origins by modern browsers, rather than inheriting the origin of the settings object responsible for the navigation.
+> Data URLs are treated as unique opaque origins by modern browsers, rather than inheriting the origin of the settings object responsible for the navigation. Alternatively, {{domxref("URL.createObjectURL_static", "URL.createObjectURL()")}} can be used to create an ephemeral URL that retains the creator's origin.
 
 ## Syntax
 
